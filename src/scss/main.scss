@@ -10,12 +10,68 @@
   .row > [class^=col-] {
     padding-top: 12px;
     padding-bottom: 12px;
-    background-color: rgba(86, 61, 124, .15);
     border: 1px solid rgba(86, 61, 124, .2);
   }
+
+  body {
+    background: #1D3A27;
+    color: white;
+    font-family: Raleway-Regular;
+  }
+
+  .concept {
+    background-color: white;
+    font-size: 18px;
+    color: #0D400C;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 26px;
+
+  }
+
+  h1 {
+    font-family: Megrim;
+    font-weight: medium;
+    font-size: 50px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
 
   .menu-txt {
     display: flex;
     justify-content: space-between;
   }
 
+  .menu-bar {
+    margin: 25px 160px;
+  }
+  
+  .img-menu {
+    @media (max-width: 1440px) {
+      .ornament {
+        display: none;
+      }
+    }
+  }
+
+  .concept {
+    padding: 144px 30px 160px;
+  }
+
+  .concept-img {
+    max-width: 200%;
+  }
+
+  .container {
+    padding: 80px;
+    text-align: center;
+  }
+
+  .card {
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    padding: 40px;
+  }

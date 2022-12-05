@@ -8,16 +8,14 @@
   </head>
   <body>
     <header>
-      <div class="menu-bar">
+      <div style="background-image: url('../img/video-resto-sitee.mp4') ;" class="menu-bar">
         <div class="row">
-          <div class="col-3" id="Home">Home</div>
-          <div class="col-3" id="Carte">Carte</div>
-          <div class="col-3" id="Reservation">Réservation</div>
-          <div class="col-3" id="Contacts">Contacts</div>
+          <div class="col-md-3" id="Home">Home</div>
+          <div class="col-md-3" id="Carte">Carte</div>
+          <div class="col-md-3" id="Reservation">Réservation</div>
+          <div class="col-md-3" id="Contacts">Contacts</div>
         </div>
       </div>
-      <div class="video-title">
-        <img src="/img/video-resto-sitee.mp4" alt="video foret">
         <h1>The Foretly</h1>
       </div>
     </header>
@@ -30,54 +28,58 @@
           <span>apaisante</span>. 
         </p>
       </div>
-      <img src="/img/derière:dessous-txt-concept.png"> 
+      <img class="concept-img" src="/img/derière:dessous-txt-concept.png"> 
       <div class="carte">
         <div class="container">
           <div class="row">
-            <div class="col-5">
-              <h3>Chaud</h3>
-              <div class="menu-txt">
-                Café, Espresso, Crème
+            <div class="col-8 offset-2 col-lg-5 offset-lg-0">
+              <div class="card">
+                <h3>Chaud</h3>
+                <div class="menu-txt">
+                  Café, Espresso, Crème
+                  <div class="priece">3$</div>
+                </div>
+                <div class="menu-txt">
+                  Café Latte, Latte à la citrouille
+                <div class="priece">7$</div>
+                </div>
+                <div class="menu-txt">
+                  Cappuccino
+                  <div class="priece">5$</div>
+                </div>
+                <div class="menu-txt">
+                  Thé, Chocolat chaud, 
+                  lait de poule
+                  <div class="priece">3$</div>
+                </div>
+              </div>
+              <div class="card">
+                <h3>Froid</h3>
+                <div class="menu-txt">
+                  Thé glacé, Chocolat froid
+                  <div class="priece">$</div>
+                </div>
+                <div class="menu-txt">
+                  Coca Cola, Henniez, Ice Tea
                 <div class="priece">3$</div>
-              </div>
-              <div class="menu-txt">
-                Café Latte, Latte à la citrouille
-              <div class="priece">7$</div>
-              </div>
-              <div class="menu-txt">
-                Cappuccino
-                <div class="priece">5$</div>
-              </div>
-              <div class="menu-txt">
-                Thé, Chocolat chaud, 
-                lait de poule
-                <div class="priece">3$</div>
-              </div>
-              <h3>Froid</h3>
-              <div class="menu-txt">
-                Thé glacé, Chocolat froid
-                <div class="priece">$</div>
-              </div>
-              <div class="menu-txt">
-                Coca Cola, Henniez, Ice Tea
-              <div class="priece">3$</div>
-              </div>
-              <div class="menu-txt">
-                Eau plate, limonade, Sirop, Jus
-                <div class="priece">2$</div>
-              </div>
-              <div class="menu-txt">
-                Cidre, Matte
-                <div class="priece">5$</div>
+                </div>
+                <div class="menu-txt">
+                  Eau plate, limonade, Sirop, Jus
+                  <div class="priece">2$</div>
+                </div>
+                <div class="menu-txt">
+                  Cidre, Matte
+                  <div class="priece">5$</div>
+                </div>
               </div>
             </div>
             <div class="col-5">
-              <img src="/img/col:12-menu.png">
+              <img class="img-menu" src="/img/col:12-menu.png">
             </div>
           </div>
         </div>
       </div>
-      <div class="container">
+      <div style="background-image: url('../img/reservation.png');"  class="container ">
         <h2>Réservation</h2>
         <p>
           Vous souhaitez organiser une réception, 
@@ -94,8 +96,30 @@
         </div>
       </div>
       <div class="footer">
-        <h2>Contacts</h2>
-        .container
+        <div class="container">
+                  <h2>Contacts</h2>
+          <div class="row">
+            <div class="col-5">
+              <p>
+                Chemin des Trois Sapins 1
+                24145 Qelqpar
+              </p>
+              <p>
+                Tel: +1 777 211 1046
+              </p>
+              <p>
+                email: @theforestlycafe.ca
+              </p>
+            </div>
+            <div class="col-5">
+              <h4>Horaire</h4>
+              <p>
+                Café ouvert tout les jours de 9H00 à 17H00.
+                Fermé uniquement le lundi !
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <script src="js/main.js" type="module"></script>

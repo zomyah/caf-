@@ -3,7 +3,7 @@
 @import "modules/example";
 @import "bootstrap/scss/bootstrap-grid"; 
 .row + .row {
-    margin-top: 16px;
+
   }
   
   .row > .col,
@@ -19,7 +19,17 @@
     font-family: Raleway-Regular;
   }
 
-  .concept {
+  .bar-haut {
+    font-family: Raleway-Medium;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    align-items: center;
+  }
+
+
+
+  .concept-back {
     background-color: white;
     font-size: 18px;
     color: #0D400C;
@@ -44,28 +54,49 @@
     justify-content: space-between;
   }
 
-  .menu-bar {
-    margin: 25px 160px;
-  }
-  
-  .img-menu {
+
+ 
     @media (max-width: 1440px) {
-      .ornament {
+      .img-menu {
         display: none;
+        width: 100%;
       }
+    }
+
+  .concept {
+    font-family: Raleway-Regular;
+    font-size: 18px;
+    color: #0D400C;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 26px;
+  }
+
+  @media (min-width: 1440px) {
+    .concept-txt {
+      border: solid;
+      border-color: white;
+      border-width: 1px;
+      padding: 10px;
     }
   }
 
-  .concept {
-    padding: 144px 30px 160px;
+  @media (min-width: 1440px) {
+    .concept-img {
+      display: none;
+      width: 100%;
+    }
   }
 
   .concept-img {
-    max-width: 200%;
+    width: 100%;
+  }
+
+  .concept-txt {
+    padding:60px 20px;
   }
 
   .container {
-    padding: 80px;
     text-align: center;
   }
 
@@ -74,4 +105,62 @@
     border-color: white;
     border-width: 1px;
     padding: 40px;
+  }
+
+  .menu-txt {
+    padding: 20px 0px;
+    text-align: left;
+  }
+
+  .priece {
+    padding: 10px;
+  }
+
+  .card h3 {
+    padding: 20px;
+  }
+
+  .card {
+    margin: 80px 0px;
+    align-items: center;
+  }
+
+  @media (min-width: 1440px) {
+    .horaire {
+      border: solid;
+      border-color: white;
+      border-width: 1px;
+      padding: 10px;
+    }
+  }
+
+  h2 {
+    font-family: Raleway-Regular;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .reservation p {
+    margin: 20px;
+  }
+
+  .reservation {
+    padding: 20px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .button {
+    background: rgba(29,58,39,0.44);
+    border: 1px solid #FFFFFF;
+    font-family: Raleway-Regular;
+    font-size: 35px;
+    color: #FFFFFF;
+    letter-spacing: 0;
   }
